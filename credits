@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+
+<head>
+		<title>Credits</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="" />
+		
+</head>
+
+<script></script>
+
+
+<body>
+
+<header>
+		<h3>urbano</h3>
+		<p id="subheading">A Digital Recipe Book</p>
+		
+		<nav> 
+			<ul id="menu">
+				<li class="item"><a href="#">Home</a></li>
+				<li class="item"><a href="#">Recipes</a></li>
+				<li class="item"><a href="#">Gallery</a></li>
+				<li class="item"><a href="#">About</a></li>	
+			</ul>			
+		</nav>
+		
+	</header>
+	
+<!-- Main Content -->
+
+	<h2>Credits</h2>
+	
+		<h3>Website</h3>
+		
+		<h3>Javascript</h3>
+		
+		<h3>Images</h3>
+
+</body>
+
+<footer>
+	<p>Copyright&copy; 2023 by Jacqueline Santoyo.</p>
+</footer>
+
+</html>
