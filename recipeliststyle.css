@@ -21,8 +21,6 @@ a {text-decoration:none; color:black;}
 		padding-bottom:1%; padding-top:-1%;
 		background-color:hsla(330, 85%, 65%, .9); 
 		border-style:solid; border-color:white; word-spacing:calc(10px + 6vw);}
-	/*background-color:hsla(0, 69%, 30%, 1);
-	The menu has a slightly darker shade of pink. */	
 .item{display:inline; font-size:calc(4px + 1vw); padding-left:2%;
 		padding-right:2%;}
 
@@ -30,36 +28,62 @@ a {text-decoration:none; color:black;}
   border: 4px solid white;
   border-radius: 30px;
   padding: 1%;
-  margin: 0 20% 1% 20%;
-
+  margin: 0 10% 1% 10%;
+  font-size:calc(7px + 0.5vw);
 }
 
-.bip{
+.recipe1{
+  border-radius: 30px;
 	border: 1px solid black;
 	background-color: hsl(330, 85%, 65%);
-	width: 45vw;
-	height: 28.5vh;
-	margin-left: 100px;
+	width: 450px;
+	height: 202px;
+	margin-left: 50px;
+	box-shadow: 3px 3px 3px black;
+	float:left;
+	margin-bottom: 20px;
 }
 
-.basicinfo{
-	text-align: left;
-	padding: 5px;
-}
-
-.ingredients{
-	padding: 10px 0px 10px 100px;
-}
-
-.nutrition{
+.recipe2{
+  border-radius: 30px;
 	border: 1px solid black;
 	background-color: hsl(330, 85%, 65%);
-	width: 300px;
-	height: 100px;
-	margin-left: 250px;
+	width: 450px;
+	height: 202px;
+	margin-left: 50px;
+	box-shadow: 3px 3px 3px black;
+	float:right;
+	margin-bottom: 20px;
 }
+
+.recipe3{
+  border-radius: 30px;
+	border: 1px solid black;
+	background-color: hsl(330, 85%, 65%);
+	width: 450px;
+	height: 202px;
+	margin-left: 50px;
+	box-shadow: 3px 3px 3px black;
+	float:right;
+	margin-bottom: 20px;
+}
+
+.recipe4{
+  border-radius: 30px;
+	border: 1px solid black;
+	background-color: hsl(330, 85%, 65%);
+	width: 500px;
+	height: 202px;
+	margin-left: 50px;
+	box-shadow: 1px 1px 1px black;
+	float:left;
+}
+
+
 
 img{
+	margin-right:5px;
+	border-radius: 30px;
   border: 1px solid black;
   width: 250px;
   height: 200px;
