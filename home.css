@@ -1,8 +1,10 @@
 /* Head/Nav */
 * {box-sizing:border-box;}
 
-body {background-color:hsl(0, 69%, 67%);
+body {background-color:hsl(220,60%,70%);
 	font-family:verdana, sans-serif;}
+
+/*new color hsl(330,85,65%)*/
 
 header {list-style-type:none;
 	margin-left:10%; margin-right:10%;
@@ -11,11 +13,15 @@ header {list-style-type:none;
 	font-size:calc(17px + 1vw);text-align:center; background-color:white;
 	color:black; border-style:solid;text-transform:uppercase;}
 	
-header h3 {color:black; margin-top:-1%;letter-spacing:.05em;}
+nav {padding-top: 3%;}
+	
+header h3 {color:black; margin-top:-1%;letter-spacing:.05em;
+			padding-top: 2%;
+			padding-bottom: 2%;}
 
 #subheading{font-size:calc(8px + 1vw); font-weight:800; font-style:italic;
 			text-transform:lowercase; word-spacing:.5em; 
-			margin-top:-2%; margin-bottom:2%; color:hsl(0, 69%, 60%);}
+			margin-top:-2%; margin-bottom:2%; color:rgb(242, 90, 166);}
 
 	/*color:hsla(0, 69%, 40%,1)*/
 	
@@ -26,7 +32,7 @@ a {text-decoration:none; color:white;}
 #menu{list-style-type:none;text-align:center;
 		padding-left:3%; padding-right:3%;
 		padding-bottom:1%; padding-top:-1%;
-		background-color:hsla(0, 69%, 67%, 1); 
+		background-color:rgb(242, 90, 166); 
 		border-style:solid; border-color:black; word-spacing:calc(10px + 6vw);}
 	/*background-color:hsla(0, 69%, 30%, 1);
 	The menu has a slightly darker shade of pink. 
@@ -41,14 +47,17 @@ a {text-decoration:none; color:white;}
 /* Main */
 
 .wrapper1 {margin-left:10%; margin-right:10%;
-			background-color:hsla(20, 100%, 94%, 1);border-style:solid;}
+			background-color:white;border-style:solid;}
 .wrapper2 {margin-left:8%; margin-right:8%;}	
 
 .wrapper1 p {font-size:calc(3px + 1vw);}
 .wrapper1 li {font-size:calc(3px + 1vw);
 				padding-bottom: 5%;
+				padding-top: 4%;
 				text-align: center;
 				list-style-type:none;}
+	
+
 .wrapper1 h3 {font-size:calc(5px + 1vw);}
 
 
@@ -63,6 +72,7 @@ a {text-decoration:none; color:white;}
 
 .intro p.style1 {
 	margin-bottom: 1.5em;
+	padding-top: 6%;
 	}
 
 .intro p.style2 {
@@ -77,10 +87,12 @@ a {text-decoration:none; color:white;}
 .carousel-container {
  
   position: relative;
-  width: 100%;
+  width: 80%;
   height: 500px;
   overflow: hidden;
   padding-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel-slide {
@@ -118,10 +130,12 @@ a {text-decoration:none; color:white;}
 
 .carousel-container2 {
   position: relative;
-  width: 100%;
+  width: 80%;
   height: 500px;
   overflow: hidden;
   padding-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel-slide2 {
@@ -158,10 +172,12 @@ a {text-decoration:none; color:white;}
 /* Gallery3 */
 .carousel-container3 {
   position: relative;
-  width: 100%;
+  width: 80%;
   height: 500px;
   overflow: hidden;
   padding-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel-slide3 {
@@ -286,7 +302,7 @@ a {text-decoration:none; color:white;}
 		input[type="reset"].style1:hover,
 		button.style1:hover,
 		.button.style1:hover {
-			background-color: hsl(0, 69%, 67%);
+			background-color: rgb(242, 90, 166);
 			}
 
 		input[type="button"].style1:active,
@@ -296,6 +312,18 @@ a {text-decoration:none; color:white;}
 		.button.style1:active {
 			background-color: #d96760;
 			}
+			
+/*Goals*/
+
+#goals h2 {text-align: center;
+			font-weight: bold;}
+
+p#students {text-align: center;
+			padding-bottom:2em}
+
+.goals {margin-left:3em;
+		margin-right:3em;
+		padding-bottom:2em;}
 
 /*Footer*/
 
