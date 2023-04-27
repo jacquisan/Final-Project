@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+
+	<head>
+			<title>Home</title>
+				<meta charset="UTF-8"/>
+				<script src="https://kit.fontawesome.com/b415c6abce.js" crossorigin="anonymous"></script>
+				<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">	  	
+				<link rel="stylesheet" type="text/css" href="home.css""/>	
+	</head>
+
+
+
+	<body>
+
+<!-- Header/Nav -->
+
+		<header>
+	
+			<nav> 
+		
+				<ul id="menu">
+			
+					<li class="item"><a href="#">Home</a></li>
+					<li class="item"><a href="#">Recipes</a></li>
+					<li class="item"><a href="#">About</a></li>
+					<li class="item"><a href="#">Credit</a></li>	
+			
+				</ul>			
+			
+			</nav>
+		
+		<h3><i class="fa-solid fa-utensils fa-flip-horizontal" style="color: #f25AA6;"></i> E-Z Chef <i class="fa-solid fa-utensils" style="color: #f25AA6;"></i></h3>
+		
+		<p id="subheading">The one thing AI can't do for college students: <br> Cook.</p>
+	
+		</header>
+	
+<div class="wrapper1">
+<div class="wrapper2">
+	
+			<div class="intro">
+			
+				<p class="style1">So in case you were wondering what this is all about ...</p>
+			
+				<p class="style2">EZ Chef prioritizes helping college students with different recipes that can help them
+				make cooking easy despite their busy schedule, limited supplies and intentions with their food!</p>
+				
+			</div>
+
+
+<!-- Gallery -->
+
+		<div class="carousel-container">
+		
+  			<div class="carousel-slide">
+  			
+   					<img src="Cubanstyle1.jpg">
+    				<img src="Cubanstyle2.jpg">
+    				<img src="Cubanstyle3.jpg">
+    				<img src="Cubanstyle1.jpg">
+    				
+  			</div>
+  			
+  				<a class="prev" onclick="prevSlide()">&#10094;</a>
+  				<a class="next" onclick="nextSlide()">&#10095;</a>
+		</div>
+
+		<script>
+				let slideIndex = 0;
+				const slides = document.querySelectorAll(".carousel-slide img");
+
+				function showSlides() {
+  				if (slideIndex >= slides.length) {
+   				slideIndex = 0;
+ 				} else if (slideIndex < 0) {
+    			slideIndex = slides.length - 1;
+  				}
+
+  				const slideWidth = slides[0].clientWidth;
+  				document.querySelector(".carousel-slide").style.transform = `translateX(-${slideIndex * slideWidth}px)`;
+				}
+
+				function nextSlide() {
+  				slideIndex++;
+  				showSlides();
+				}
+
+				function prevSlide() {
+  				slideIndex--;
+  				showSlides();
+				}
+
+				setInterval(nextSlide, 5000);
+		</script>
+
+<!-- Gallery2 -->		
+		<div class="carousel-container2">
+		
+  			<div class="carousel-slide2">
+  			
+   					<img src="Cubanstyle1.jpg">
+    				<img src="Cubanstyle2.jpg">
+    				<img src="Cubanstyle3.jpg">
+    				<img src="Cubanstyle1.jpg">
+    				
+  			</div>
+  				<a class="prev2" onclick="prev2Slide()">&#10094;</a>
+  				<a class="next2" onclick="next2Slide()">&#10095;</a>
+		</div>
+
+		<script>
+				let slide2Index = 0;
+				const slides2 = document.querySelectorAll(".carousel-slide2 img");
+
+				function show2Slides() {
+  				if (slide2Index >= slides2.length) {
+   				slide2Index = 0;
+ 				} else if (slide2Index < 0) {
+    			slide2Index = slides2.length - 1;
+  				}
+
+  				const slide2Width = slides2[0].clientWidth;
+  				document.querySelector(".carousel-slide2").style.transform = `translateX(-${slide2Index * slide2Width}px)`;
+				}
+
+				function next2Slide() {
+  				slide2Index++;
+  				show2Slides();
+				}
+
+				function prev2Slide() {
+  				slide2Index--;
+  				show2Slides();
+				}
+
+				setInterval(next2Slide, 5000);
+		</script>
+		
+<!-- Gallery3 -->
+		<div class="carousel-container3">
+		
+  			<div class="carousel-slide3">
+  			
+   					<img src="Cubanstyle1.jpg">
+    				<img src="Cubanstyle2.jpg">
+    				<img src="Cubanstyle3.jpg">
+    				<img src="Cubanstyle1.jpg">
+    				
+  			</div>
+  				<a class="prev3" onclick="prev3Slide()">&#10094;</a>
+  				<a class="next3" onclick="next3Slide()">&#10095;</a>
+		</div>
+		</div>
+
+		<script>
+				let slide3Index = 0;
+				const slides3 = document.querySelectorAll(".carousel-slide3 img");
+
+				function show3Slides() {
+  				if (slide3Index >= slides3.length) {
+   				slide3Index = 0;
+ 				} else if (slide3Index < 0) {
+    			slide3Index = slides3.length - 1;
+  				}
+
+  				const slide3Width = slides3[0].clientWidth;
+  				document.querySelector(".carousel-slide3").style.transform = `translateX(-${slide3Index * slide3Width}px)`;
+				}
+
+				function next3Slide() {
+  				slide3Index++;
+  				show3Slides();
+				}
+
+				function prev3Slide() {
+  				slide3Index--;
+  				show3Slides();
+				}
+
+				setInterval(next3Slide, 5000);
+		</script>
+		
+<!-- Main Content -->
+	<div id="goals">
+			<h2>Our Goals</h2>
+			<p id="students">As students and chefs we hope too...</p>
+	
+				<div class="feature-list">
+				<div class="row">
+						
+						<div class="col-6 col-12-medium">
+						
+							<section class="goals">
+						
+								<h3 class="icon solid fa-check">  Provide tasty recipes</h3>
+							
+								<p>All our dishes use spices and different ingredients or same ones but never taste the same and always keep you smiling.</p>
+							
+							</section>
+						</div>
+				
+						<div class="col-6 col-12-medium">
+						
+							<section class="goals">
+							
+								<h3 class="icon solid fa-check">  Diversify your palete</h3>
+							
+								<p>We have a section full of ethnic recipes but before you panic, all of them are easy to make and don't require extra hands.</p>
+						
+							</section>
+						</div>
+										
+						<div class="col-6 col-12-medium">
+							
+							<section class="goals">
+							
+								<h3 class="icon solid fa-check">  Use up all your ingredients</h3>
+							
+								<p>Sometimes we dont know what to do with two random ingredients but with EZ Chef we hope to use up all those ingredients to make delicious food. </p>
+						
+							</section>
+						</div>
+										
+				
+						<div class="col-6 col-12-medium">
+					
+							<section class="goals">
+						
+								<h3 class="icon solid fa-check">  Make sure you eat</h3>
+						
+								<p>Eat! our goal isn't to make you the best chef on campus but simply to give you options and make sure you are eating.</p>
+					
+							</section>
+					
+						</div>
+	
+				</div>
+				</div>
+		
+		<ul class="actions special">
+			
+			<li><a href="#" class="button style1 large">Recipes</a> <a href="#" class="button style1 large">About Us</a></li>
+			
+		</ul>
+		
+</div>
+
+</div>
+</div>
+
+</body>
+
+<!-- Footer -->
+
+<footer>
+	<p>Copyright&copy; 2023 by Jacqueline Santoyo. <a href="#">Credits</a></p>
+</footer>
+
+</html>
