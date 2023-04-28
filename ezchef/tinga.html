@@ -16,7 +16,7 @@
 <body>
 	
 	<header>
-		
+		<div id="content">
 		<nav> 
 			<ul id="menu">
 					<li class="item"><a href="https://cs-people.bu.edu/ioalonzo/ezchef/">Home</a></li>
@@ -153,11 +153,17 @@
 		
 	</div>	
 	</div>
-	
+	</div>
 	
 	<footer>
 <p>Copyright&copy; 2023 Irvin Alonzo, Sinan Bruce, Jacqueline Santoyo. <a href="https://cs-people.bu.edu/ioalonzo/ezchef/credits" style="color: black;">Credits</a></p>
 	</footer>
 	
 </body>
+<script>
+document.getElementById("content").style.visibility = "hidden";
+alert("This recipe can turn out really spicy, enter at your own risk.");
+document.getElementById("content").style.visibility="visible"
+</script>
+							     
 </html>
