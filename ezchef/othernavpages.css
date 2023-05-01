@@ -1,6 +1,6 @@
 /* Head/Nav */
 * {box-sizing:border-box;}
-
+	
 body {background-color:hsl(220,60%,70%);
 	font-family:verdana, sans-serif;}
 
@@ -23,6 +23,7 @@ header h3 {color:black; margin-top:-1%;letter-spacing:.05em;font-weight:800;
 			text-transform:lowercase; word-spacing:.5em; 
 			margin-top:-2%; margin-bottom:2%; color:rgb(242, 90, 166);}
 			
+		
 
 	/*color:hsla(0, 69%, 40%,1)*/
 	
@@ -196,5 +197,4 @@ footer {text-align:center; font-size:calc(3px + 1vw);
 			color: black;}
 			
 footer a {text-decoration:underline;}
-
 
