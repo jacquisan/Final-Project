@@ -25,8 +25,7 @@ header h3 {color:black; margin-top:-1%;letter-spacing:.05em; font-weight:800;
 
 	/*color:hsla(0, 69%, 40%,1)*/
 	
-a {text-decoration:none; color:white;}
-
+a p {text-decoration:underline;}
 #link {color:red; font-weight:bold;}
 
 #menu{list-style-type:none;text-align:center;
@@ -40,6 +39,7 @@ a {text-decoration:none; color:white;}
 	
 .item{display:inline; font-size:calc(4px + 1vw); padding-left:2%;
 		padding-right:2%; color:black;}
+.item a {text-decoration:none;}
 #menu a {color:black;}		
 	
 #title {text-align:center; padding-top:1%;text-transform:uppercase;font-size:calc(12px + 1vw);}
